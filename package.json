@@ -1,0 +1,16 @@
+{
+  "name": "miknna",
+  "version": "1.0.0",
+  "description": "Reverse aggregator prototype",
+  "scripts": {
+    "scrape": "node index.js"
+  },
+  "dependencies": {
+    "rpc-engine": "^2.1.1",
+    "simple-get": "^2.6.0",
+    "ws": "^2.3.1"
+  },
+  "repository": "https://github.com/miknna/reverse-aggregator",
+  "author": "mik.nna@gmail.com",
+  "license": "UNLICENSED"
+}
