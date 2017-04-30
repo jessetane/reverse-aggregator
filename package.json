@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Reverse aggregator prototype",
   "scripts": {
-    "scrape": "node index.js"
+    "scrape": "node index.js",
+    "lint": "standard"
   },
   "dependencies": {
     "rpc-engine": "^2.1.1",
     "simple-get": "^2.6.0",
+    "standard": "^10.0.2",
     "ws": "^2.3.1"
   },
   "repository": "https://github.com/miknna/reverse-aggregator",
